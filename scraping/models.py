@@ -38,5 +38,8 @@ class Vacancy(models.Model):
     specialization = models.ForeignKey('NameSpecialization', on_delete=models.CASCADE)
     timestamp = models.DateField(auto_now_add=True)
 
+    class Meta():
+        verbose_name = 'Vacancy'
+
     def __str__(self):
         return self.title
