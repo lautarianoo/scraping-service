@@ -13,7 +13,7 @@ class City(models.Model):
             self.slug = self.name
         super().save(*args, **kwargs)
 
-class NameSpecialization(models.Model):
+class NameProf(models.Model):
     name = models.CharField(max_length=50, unique=True, verbose_name='Специализация или профессия')
     slug = models.CharField(max_length=50, blank=True, unique=True)
 
@@ -35,7 +35,7 @@ class Vacancy(models.Model):
     company = models.CharField(max_length=250, verbose_name='Компания')
     description = models.TextField(verbose_name='Описание вакансии')
     city = models.ForeignKey('City', on_delete=models.CASCADE)
-    specialization = models.ForeignKey('NameSpecialization', on_delete=models.CASCADE)
+    prof = models.ForeignKey('NameProf', on_delete=models.CASCADE)
     timestamp = models.DateField(auto_now_add=True)
 
     class Meta():
