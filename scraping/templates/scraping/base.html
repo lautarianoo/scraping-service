@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class='h-100' lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,7 +9,8 @@
 
     <title>Scraping Service</title>
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="{% url 'index' %}">Scraping</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,19 +38,17 @@
   </div>
 </nav>
     <div class="container">
-        {% block content %}
+    {% block content %}
         {% endblock content %}
     </div>
-<div class="footer">
-<footer class="bd-dark text-center text-start" style="margin-top: auto !important;">
+    </main>
+<footer class="bg-dark text-center text-start footer mt-auto py-1">
   <!-- Copyright -->
-  <div class="text-light text-center p-3" style="background-color: #343a40;">
-    © 2021 Scraping service, Autor - Lautariano.
-    <a class="text-light" href="https://vk.com/lautariano">My VK</a>
+  <div class="text-center p-3 text-white" style="background-color: #343a40 ;">
+      © 2021 Autor - Lautariano. <a href="https://github.com/lautarianoo?tab=repositories">My GitHub</a>
   </div>
   <!-- Copyright -->
 </footer>
-   </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
