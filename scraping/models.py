@@ -1,5 +1,8 @@
 from django.db import models
 
+def default_urls():
+    return {'hh': ''}
+
 class City(models.Model):
     name = models.CharField(max_length=50, unique=True)
     slug = models.CharField(max_length=50, blank=True, unique=True)
@@ -47,3 +50,11 @@ class Vacancy(models.Model):
 class Error(models.Model):
     timestamp = models.DateField(auto_now_add=True)
     data = models.JSONField()
+
+class Url(models.Model):
+    city = models.ForeignKey('City', on_delete=models.CASCADE)
+    prof = models.ForeignKey('NameProf', on_delete=models.CASCADE)
+    url_data = models.JSONField(default=default_urls)
+    class Meta():
+        unique_together = ('city', 'prof')
+

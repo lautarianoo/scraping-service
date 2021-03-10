@@ -6,3 +6,4 @@ admin.site.register(NameProf)
 admin.site.register(Vacancy)
 admin.site.register(Error)
 
+
