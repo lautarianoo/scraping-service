@@ -1,4 +1,4 @@
-
+import asyncio
 import os, sys
 
 from django.contrib.auth import get_user_model
@@ -10,14 +10,14 @@ import django
 django.setup()
 
 from scraping.parser import hh
-from scraping.models import Vacancy, City, NameProf, Errors, Url
+from scraping.models import Vacancy, Errors, Url
 from django.db import DatabaseError
 
 User = get_user_model()
-parser = ((hh, 'https://hh.ru/search/vacancy?L_is_autosearch=false&clusters=true&enable_snippets=true&no_magic=true&specialization=1&page=2'),
-          (hh, 'https://hh.ru/search/vacancy?L_is_autosearch=false&clusters=true&enable_snippets=true&no_magic=true&specialization=1&page=1'),
-          (hh, 'https://hh.ru/search/vacancy?L_is_autosearch=false&clusters=true&enable_snippets=true&no_magic=true&specialization=1&page=4'),
-          (hh, 'https://hh.ru/search/vacancy?L_is_autosearch=false&clusters=true&enable_snippets=true&no_magic=true&specialization=1&page=0')
+parser = ((hh, 'hh'),
+          (hh, 'hh'),
+          (hh, 'hh'),
+          (hh, 'hh')
 )
 
 def get_settings():
@@ -37,18 +37,24 @@ def get_urls(_settings):
         urls.append(tmp)
     return urls
 
-q = get_settings()
-u = get_urls(q)
-city = City.objects.all().first()
-prof = NameProf.objects.all().first()
-jobs, errors = [], []
-for func, url in parser:
-    j, e = func(url)
-    jobs += j
-    errors += e
+async def main(value):
+    func, url, city, prof = value
+    job, er = await loop.run_in_executor(None, func, url, city, prof)
+    errors.extend(er)
+    jobs.extend(job)
 
+settings = get_settings()
+url_list = get_urls(settings)
+
+jobs, errors = [], []
+loop = asyncio.get_event_loop()
+tmp_tasks = [(func, data['url_data'][key], data['city'], data['prof'])
+             for data in url_list for func, key in parser]
+tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
+loop.run_until_complete(tasks)
+loop.close()
 for job in jobs:
-    v = Vacancy(**job, city=city, prof=prof)
+    v = Vacancy(**job)
     try:
         v.save()
     except DatabaseError:

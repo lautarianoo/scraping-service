@@ -3,7 +3,7 @@ import json
 from django.core.serializers.json import DjangoJSONEncoder
 
 def default_urls():
-    return {'hh': '', 'hh2': '', 'hh3': '', 'hh4': ''}
+    return {"hh": "", "hh2": "", "hh3": "", "hh4": ""}
 
 class JSONField1(models.TextField):
     """
@@ -82,6 +82,7 @@ class Vacancy(models.Model):
 
     class Meta():
         verbose_name = 'Vacancy'
+        ordering = ['-timestamp']
 
     def __str__(self):
         return self.title
