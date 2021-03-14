@@ -78,6 +78,7 @@ class Vacancy(models.Model):
     description = models.TextField(verbose_name='Описание вакансии')
     city = models.ForeignKey('City', on_delete=models.CASCADE)
     prof = models.ForeignKey('NameProf', on_delete=models.CASCADE)
+    earning = models.CharField(max_length=200, verbose_name='Зарплата')
     timestamp = models.DateField(auto_now_add=True)
 
     class Meta():

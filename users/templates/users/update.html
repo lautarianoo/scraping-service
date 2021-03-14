@@ -1,0 +1,26 @@
+{% extends 'scraping/base.html' %}
+{% load bootstrap3 %}
+{% block content %}
+    <h3 style="padding: 50px;
+  position: fixed; top: 10%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)">Здравствуйте, {{ user.name }}</h3>
+    <form method="POST" action="" style="padding: 50px;
+  position: fixed; top: 40%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);" class="my-4">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button name="submit" class="btn btn-primary">Cохранить</button>
+</form>
+    <form method="POST" action="{% url 'users:delete' %}" style="padding: 50px;
+  position: fixed; top: 40%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(30%, 50%);" class="my-4">
+      {% csrf_token %}
+      <button name="submit" class="btn btn-danger">Удалить аккаунт</button>
+</form>
+{% endblock content %}

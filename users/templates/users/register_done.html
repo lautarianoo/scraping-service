@@ -1,0 +1,14 @@
+{% extends 'scraping/base.html' %}
+
+{% block content %}
+    <div class="row">
+      <div class="col-md-8 mx-auto" style="padding: 50px;
+      position: fixed; top: 40%; left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);">
+          <h2 class="my-2" align="center">Приветствуем нового пользователя {{ new_user.name }}</h2>
+          <h4 align="center">Вы зарегистрировались в системе. <a href="{% url 'users:login' %}">Войти</a></h4>
+      </div>
+    </div>
+{% endblock content %}

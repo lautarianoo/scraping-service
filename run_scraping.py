@@ -12,6 +12,8 @@ django.setup()
 from scraping.parser import hh
 from scraping.models import Vacancy, Errors, Url
 from django.db import DatabaseError
+import json
+import ast
 
 User = get_user_model()
 parser = ((hh, 'hh'),
@@ -34,30 +36,28 @@ def get_urls(_settings):
         tmp['city'] = pair[0]
         tmp['prof'] = pair[1]
         tmp['url_data'] = url_dct[pair]
+        tmp['url_data'] = ast.literal_eval(tmp['url_data'])
         urls.append(tmp)
     return urls
-
-async def main(value):
-    func, url, city, prof = value
-    job, er = await loop.run_in_executor(None, func, url, city, prof)
-    errors.extend(er)
-    jobs.extend(job)
 
 settings = get_settings()
 url_list = get_urls(settings)
 
 jobs, errors = [], []
-loop = asyncio.get_event_loop()
-tmp_tasks = [(func, data['url_data'][key], data['city'], data['prof'])
-             for data in url_list for func, key in parser]
-tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
-loop.run_until_complete(tasks)
-loop.close()
+
+for data in url_list:
+    for func, key in parser:
+        url = data['url_data'][key]
+        j, e = func(url, city=data['city'], prof=data['prof'])
+        jobs += j
+        errors += e
+
 for job in jobs:
     v = Vacancy(**job)
     try:
         v.save()
     except DatabaseError:
         pass
+
 if errors:
     er = Errors(data=errors).save()

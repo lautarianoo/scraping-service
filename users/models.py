@@ -3,7 +3,7 @@ from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
 from django.contrib.auth.models import UserManager
 
 class MyUserManager(BaseUserManager):
-    def create_user(self, email, password=None):
+    def create_user(self, email, name, password=None):
         """
         Creates and saves a User with the given email, date of
         birth and password.
@@ -13,13 +13,14 @@ class MyUserManager(BaseUserManager):
 
         user = self.model(
             email=self.normalize_email(email),
+            name=name
         )
 
         user.set_password(password)
         user.save(using=self._db)
         return user
 
-    def create_superuser(self, email, password=None):
+    def create_superuser(self, email, name, password=None):
         """
         Creates and saves a superuser with the given email, date of
         birth and password.
@@ -27,6 +28,7 @@ class MyUserManager(BaseUserManager):
         user = self.create_user(
             email,
             password=password,
+            name=name
         )
         user.is_admin = True
         user.save(using=self._db)
@@ -40,6 +42,7 @@ class MyUser(AbstractBaseUser):
     )
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
+    name = models.CharField(max_length=50, null=True, blank=True)
     city = models.ForeignKey('scraping.City', on_delete=models.SET_NULL, null=True, blank=True)
     prof = models.ForeignKey('scraping.NameProf', on_delete=models.SET_NULL, null=True, blank=True)
     send_email = models.BooleanField(default=True)

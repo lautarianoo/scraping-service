@@ -23,20 +23,20 @@ def hh(url, city=None, prof=None):
         if resp.status_code == 200:
             soup = BS(resp.content, 'html.parser')
             main_div = soup.find('div', attrs={'class': 'vacancy-serp'})
-            div_list = main_div.find_all('div', attrs={'class': 'vacancy-serp-item_premium'})
+            div_list = main_div.find_all('div', attrs={'class': 'vacancy-serp-item'})
             if main_div:
                 for div in div_list:
+                    earning = div.find('div', attrs={'class': 'vacancy-serp-item__sidebar'})
                     title = div.find('span', attrs={'class': 'g-user-content'})
                     href = title.a['href']
                     content = div.find('div', attrs={'class': 'g-user-content'})
                     company = div.find('div', attrs={'class': 'vacancy-serp-item__meta-info-company'})
-                    jobs.append({'title': title.text, 'url': href, 'description': content.text, 'company': company.text, 'city_id': city, 'prof_id': prof})
+                    jobs.append({'title': title.text, 'url': href, 'description': content.text, 'company': company.text, 'earning': earning.text, 'city_id': city, 'prof_id': prof})
             else:
                 errors.append({'url': url, 'title': 'Div does not exists'})
         else:
             errors.append({'url': url, 'title': 'Page you not response'})
         return jobs, errors
-
 
 if __name__ == '__main__':
     url = 'https://hh.ru/search/vacancy?L_is_autosearch=false&clusters=true&enable_snippets=true&no_magic=true&specialization=1&page=4'

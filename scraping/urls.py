@@ -1,7 +1,8 @@
+from django.conf.urls import url
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('jobs/', views.vacancys, name='vacancys')
+    url(r'^$', views.index, name='index'),
+    url(r'^jobs/$', views.vacancys, name='vacancys')
 ]
