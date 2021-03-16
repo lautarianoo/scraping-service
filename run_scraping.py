@@ -32,12 +32,17 @@ def get_urls(_settings):
     url_dct = {(q['city_id'], q['prof_id']): q['url_data'] for q in qs}
     urls = []
     for pair in _settings:
-        tmp = {}
-        tmp['city'] = pair[0]
-        tmp['prof'] = pair[1]
-        tmp['url_data'] = url_dct[pair]
-        tmp['url_data'] = ast.literal_eval(tmp['url_data'])
-        urls.append(tmp)
+        if pair in url_dct:
+            tmp = {}
+            tmp['city'] = pair[0]
+            tmp['prof'] = pair[1]
+            tmp['url_data'] = url_dct[pair]
+            tmp['url_data'] = ast.literal_eval(tmp['url_data'])
+            url_data = url_dct.get(pair)
+            if url_data:
+                tmp['url_data'] = url_dct.get(pair)
+                tmp['url_data'] = ast.literal_eval(tmp['url_data'])
+                urls.append(tmp)
     return urls
 
 settings = get_settings()

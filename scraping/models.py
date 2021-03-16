@@ -92,6 +92,9 @@ class Errors(models.Model):
     timestamp = models.DateField(auto_now_add=True)
     data = JSONField1()
 
+    def __str__(self):
+        return str(self.timestamp)
+
 class Url(models.Model):
     city = models.ForeignKey('City', on_delete=models.CASCADE)
     prof = models.ForeignKey('NameProf', on_delete=models.CASCADE)
