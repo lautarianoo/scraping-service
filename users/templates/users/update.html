@@ -10,7 +10,7 @@
   position: fixed; top: 40%; left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);" class="my-4">
+  transform: translate(-50%, -70%);" class="my-4">
     {% csrf_token %}
     {{ form.as_p }}
     <button name="submit" class="btn btn-primary">Cохранить</button>
@@ -19,8 +19,18 @@
   position: fixed; top: 40%; left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(30%, 50%);" class="my-4">
+  transform: translate(30%, -10%);" class="my-4">
       {% csrf_token %}
       <button name="submit" class="btn btn-danger">Удалить аккаунт</button>
+</form>
+<form method="POST" action="" style="padding: 50px;
+  position: fixed; top: 40%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-40%, 10%);" class="my-4"><hr>
+    <p class="my-2">Если вы не нашли нужную вакансию по каким-либо наборам. Напишите нам</p>
+    {% csrf_token %}
+    {{ contact_form.as_p }}
+    <button name="submit" class="btn btn-primary">Отправить</button>
 </form>
 {% endblock content %}

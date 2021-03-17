@@ -90,7 +90,7 @@ class Vacancy(models.Model):
 
 class Errors(models.Model):
     timestamp = models.DateField(auto_now_add=True)
-    data = JSONField1()
+    data = JSONField1(default={})
 
     def __str__(self):
         return str(self.timestamp)

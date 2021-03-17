@@ -1,3 +1,4 @@
+import ast
 import os
 import sys
 import datetime
@@ -49,28 +50,34 @@ if users_dct:
             msg.attach_alternative(_html, "text/html")
             msg.send()
 
-qs = Errors.objects.filter(timestamp=today)
 subject = ''
 text_content = ''
 to = ADMIN_USER
 _html = ''
-if qs.exists():
-    error = qs.first()
-    data = error.data
-    for i in data:
-        _html += f'<div><h3>Error<a href="{ i["url"] }">{ i["title"] }</a></h3><h5 align="right">{ i["earning"] }</h5></div>'
-    subject = f'Error Scraping {today}'
-    text_content = f'Error Scraping {today}'
+#не работает блять нихуя говное баное JSON
+#if qs.exists():
+    #error = qs.first()
+    #error.data = ast.literal_eval(error.data)
+    #city = error.data['city']
+    #prof = error.data['prof']
+    #email = error.data['email']
+    #_html += '<hr>'
+    #_html += '<h2> </h2>'
+    #_html += f"<div><h3>City>{city}, Prof: {prof}, Email: {email} </h3></div>"
+    #subject += f'Пожелания пользователя {today}'
+    #text_content += f'Пожелания пользователя {today}'
+
 
 qs = Url.objects.all().values('city', 'prof')
 urls_dct = {(i['city'], i['prof']): True for i in qs}
 urls_errors = ''
 for keys in users_dct.keys():
     if keys not in urls_dct:
-        urls_errors += f'<div><h3> For city: { keys[0] } And proffesion: { keys[1] }, doesnt have URL</h3></div>'
+        if keys[0] and keys[1]:
+            urls_errors += f'<div><h3> For city: { keys[0] } And proffesion: { keys[1] }, doesnt have URL</h3></div>'
 
 if urls_errors:
-    subject += 'Остуствуют URL'
+    subject += 'Отсуствуют URL'
     _html += urls_errors
 
 if subject:
