@@ -63,29 +63,3 @@ def delete_view(request):
             qs = User.objects.get(pk=user.pk)
             qs.delete()
     return redirect('index')
-
-#не используется(мб починю)
-#def contact_view(request):
-    #if request.method == 'POST':
-        #contact_form = ContactForm(request.POST or None)
-        #if contact_form.is_valid():
-            #data = contact_form.cleaned_data
-            #city = data.get('city')
-            #prof = data.get('prof')
-            #email = data.get('email')
-            #qs = Errors.objects.filter(timestamp=dt.date.today())
-            #if qs.exists():
-                #err = qs.first()
-                #err.data = ast.literal_eval(err.data)
-                #data = err.data.get('user_data', [])
-                #data.append({'city': city, 'email': email, 'prof': prof})
-                #err.data['user_data'] = data
-                #err.save()
-            #else:
-                #data = {'city': city, 'email': email, 'prof': prof}
-                #Errors(data=f"{data}").save()
-            #return redirect('users:update')
-        #else:
-            #redirect('users:update')
-    #else:
-        #redirect('users:login')
