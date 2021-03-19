@@ -2,6 +2,8 @@ import ast
 import os
 import sys
 import datetime
+import time
+
 from django.core.mail import EmailMultiAlternatives
 from django.contrib.auth import get_user_model
 
@@ -46,6 +48,7 @@ if users_dct:
         _html = html if html else empty
         for email in emails:
             to = email
+            time.sleep(2)
             msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
             msg.attach_alternative(_html, "text/html")
             msg.send()

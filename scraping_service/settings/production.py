@@ -5,7 +5,7 @@ EMAIL_HOST_USER=os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD=os.getenv('EMAIL_HOST_PASSWORD')
 EMAIL_HOST = os.getenv('EMAIL_HOST')
 EMAIL_PORT = os.getenv('EMAIL_PORT')
-
+DEFAULT_FROM_EMAIL = 'emailsenddjango@gmail.com'
 DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')
