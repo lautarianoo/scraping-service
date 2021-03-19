@@ -1,0 +1,1768 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-03-11T16:47:30.584Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Москва",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-03-11T16:47:48.318Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-03-11T17:15:52.978Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "fsdgdrg@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-03-11T17:16:00.783Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "fsdgdrg@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prof\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-03-11T17:16:05.576Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "lautariano777@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prof\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-03-11T17:40:13.017Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-03-12T06:35:43.429Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-03-12T06:36:13.885Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Url object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-03-12T13:39:27.221Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Url object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-03-12T15:02:24.131Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Челябинск",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-03-12T15:03:09.862Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Екатеринбург",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-03-12T15:06:21.198Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Санкт-Петербург",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-03-12T15:06:54.943Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "Ростов-на-Дону",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-03-12T15:07:09.657Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Нижний Новгород",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-03-12T15:07:19.656Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "Воронеж",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-03-12T15:07:34.508Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "8",
+    "object_repr": "Новосибирск",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-03-12T15:07:48.153Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "9",
+    "object_repr": "Казань",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-03-12T15:07:55.800Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "10",
+    "object_repr": "Тюмень",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-03-12T15:08:20.448Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "11",
+    "object_repr": "Пермь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-03-12T15:08:26.893Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "12",
+    "object_repr": "Самара",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-03-12T15:14:41.074Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Url object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.465Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "250",
+    "object_repr": "Менеджер по продажам IT-продуктов",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.515Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "249",
+    "object_repr": "Менеджер по продажами в В2В",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.583Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "248",
+    "object_repr": "Старший разработчик (Java, биоинформатика)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.658Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "247",
+    "object_repr": "Менеджер по продажам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.742Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "246",
+    "object_repr": "Angular Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.825Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "245",
+    "object_repr": "Системный аналитик BI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-03-12T17:10:36.907Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "244",
+    "object_repr": "Региональный менеджер по продажам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.000Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "243",
+    "object_repr": "Руководитель проектов по строительству ЦОД",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.206Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "242",
+    "object_repr": "Программист-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.325Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "241",
+    "object_repr": "C# Programmer, Unity (Consoles)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.408Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "240",
+    "object_repr": "Менеджер по продажам B2B",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.474Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "239",
+    "object_repr": "Специалист по контекстной рекламе (Таргетолог)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.542Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "238",
+    "object_repr": "Full Stack разработчик (React.js, Node.js)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.608Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "237",
+    "object_repr": "PHP/Laravel разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.657Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "236",
+    "object_repr": "Ведущий инженер группы интерконнекта, сбора и преобразования данных",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "235",
+    "object_repr": "Специалист call-центра (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.775Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "234",
+    "object_repr": "Director of Marketing Communications",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.850Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "233",
+    "object_repr": "Менеджер по продажам (В2В) со знанием английского языка",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-03-12T17:10:37.916Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "232",
+    "object_repr": "Web-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.042Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "231",
+    "object_repr": "Java Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.090Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "230",
+    "object_repr": "Системный аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.141Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "229",
+    "object_repr": "QA engineer SberDevices (направление B2B2C)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.200Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "228",
+    "object_repr": "Senior iOS Developer (Swift)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.266Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "227",
+    "object_repr": "DevOps Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.315Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "226",
+    "object_repr": "Агент выездных продаж (вечернее время)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.374Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "225",
+    "object_repr": "Интернет-маркетолог",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.449Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "224",
+    "object_repr": "Менеджер по продажам интернет-рекламы / digital",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.540Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "223",
+    "object_repr": "Business Analyst",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.633Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "222",
+    "object_repr": "Менеджер по продажам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.715Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "221",
+    "object_repr": "Project Manager",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.808Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "220",
+    "object_repr": "Full Stack разработчик ASP.NET+Angular (Проект \"Портал корпоративного бизнеса\")",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2021-03-12T17:10:38.899Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "219",
+    "object_repr": "Marketing Specialist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.007Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "218",
+    "object_repr": "Business Development Manager and Marketing manager",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.099Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "217",
+    "object_repr": "Менеджер по продажам.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.265Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "216",
+    "object_repr": "Руководитель по работе с маркетплейсами",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.424Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "215",
+    "object_repr": "Менеджер по продажам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.565Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "214",
+    "object_repr": "Специалист по работе с пользователями Федеральных проектов",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.650Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "213",
+    "object_repr": "2D художник-иллюстратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.792Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "212",
+    "object_repr": "React.js Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2021-03-12T17:10:39.940Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "211",
+    "object_repr": "Менеджер по продажам / Специалист по продажам услуг",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.041Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "210",
+    "object_repr": "Ведущий программист 1С",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.141Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "209",
+    "object_repr": "DevOps инженер",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.224Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "208",
+    "object_repr": "Environment artist / художник окружения",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.340Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "207",
+    "object_repr": "2D художник (игровая изометрия)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.440Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "206",
+    "object_repr": "QA Architect",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.540Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "205",
+    "object_repr": "Монтажник слаботочных систем",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.640Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "204",
+    "object_repr": "Системний адміністратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.740Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "203",
+    "object_repr": "Technical Expert/Support",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "202",
+    "object_repr": "JavaScript разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2021-03-12T17:10:40.941Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "201",
+    "object_repr": "Специалист по продажам продуктов 1С",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.040Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "200",
+    "object_repr": "Менеджер по привлечению клиентов направления Маркетплейс",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.165Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "199",
+    "object_repr": "Ведущий эфира (Онлайн-вебинары, Clubhouse)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.265Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "198",
+    "object_repr": "Golang engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.365Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "197",
+    "object_repr": "Аналитик данных (Data scientist)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.457Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "196",
+    "object_repr": "Руководитель отдела аренды",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.576Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "195",
+    "object_repr": "Front-end developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.742Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "194",
+    "object_repr": "Web Designer / UX Designer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2021-03-12T17:10:41.924Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "193",
+    "object_repr": "Специалист отдела продаж",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.115Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "192",
+    "object_repr": "Менеджер по продажам услуг (горячие заявки)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.232Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "191",
+    "object_repr": "Начинающий специалист",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.375Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190",
+    "object_repr": "Заместитель руководителя группы системного администрирования",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.490Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "189",
+    "object_repr": "Assistant to Head of Agency/Помощник руководителя агентства",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.600Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "188",
+    "object_repr": "Специалист поддержки пользователей",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.815Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "187",
+    "object_repr": "Системный администратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2021-03-12T17:10:42.940Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "186",
+    "object_repr": "Менеджер по продажам в магазин",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.015Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "185",
+    "object_repr": "Художник по персонажам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.116Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "184",
+    "object_repr": "Менеджер по продажам в Яндекс.Недвижимость",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.215Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "183",
+    "object_repr": "QA engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.332Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "182",
+    "object_repr": "Менеджер по лизингу",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.449Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "181",
+    "object_repr": "Специалист службы поддержки пользователей",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.558Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "180",
+    "object_repr": "Специалист по тестированию",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.623Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "179",
+    "object_repr": "Младший 2D художник-иллюстратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.708Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "178",
+    "object_repr": "Специалист по продажам и работе с пользователями",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.782Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "177",
+    "object_repr": "Начальник отдела управления проектами (IT)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2021-03-12T17:10:43.898Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "176",
+    "object_repr": "Монтажник",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.007Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "175",
+    "object_repr": "Frontend Developer/HTML-coder",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.098Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "174",
+    "object_repr": "Специалист по работе с клиентами (менеджер технической поддержки)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.190Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "173",
+    "object_repr": "Руководитель отдела маркетинга",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.281Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "172",
+    "object_repr": "Эксперт Онлайн Офиса",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.433Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "171",
+    "object_repr": "Менеджер по работе с клиентами в социальных сетях",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.515Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "170",
+    "object_repr": "Менеджер проектов",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.623Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "169",
+    "object_repr": "Специалист по работе с клиентами (обработка чатов)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.723Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "168",
+    "object_repr": "Стажер в отдел продаж",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.814Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "167",
+    "object_repr": "Системный администратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.906Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "166",
+    "object_repr": "Системный администратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2021-03-12T17:10:44.998Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "165",
+    "object_repr": "Специалист по работе с клиентами",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.099Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "164",
+    "object_repr": "HTML-верстальщик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.190Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "163",
+    "object_repr": "Специалист поддержки пользователей",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.306Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "162",
+    "object_repr": "Специалист поддержки пользователей",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.406Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "161",
+    "object_repr": "Специалист службы поддержки пользователей",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.515Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "160",
+    "object_repr": "Копирайтер",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.615Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "159",
+    "object_repr": "Букмекер-аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.716Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "158",
+    "object_repr": "Специалист по работе с клиентами",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.823Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "157",
+    "object_repr": "Менеджер чата (ИМ Оzоn)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2021-03-12T17:10:45.923Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "156",
+    "object_repr": "Менеджер интернет-магазина",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2021-03-12T17:10:46.023Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "155",
+    "object_repr": "Инженер сборщик тестировщик компьютерной техники / PC assembler and tester",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2021-03-12T17:10:46.123Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "154",
+    "object_repr": "Специалист службы технической поддержки",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2021-03-12T17:10:46.223Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "153",
+    "object_repr": "Начинающий специалист",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2021-03-12T17:10:46.315Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "152",
+    "object_repr": "Оператор call-центра в Delivery Club",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2021-03-12T17:10:46.406Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "151",
+    "object_repr": "Младший менеджер проектов (специалист поддержки клиентов)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2021-03-12T17:11:04.934Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "150",
+    "object_repr": "VoIP инженер",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.014Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "149",
+    "object_repr": "Специалист по работе с клиентами в контакт-центр (на дому)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.097Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "148",
+    "object_repr": "Сервисный инженер (специалист по ремонту оргтехники)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.197Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "147",
+    "object_repr": "Process Manager",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.305Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "146",
+    "object_repr": "Программист 1С 8.3 (ул. Бориспольская, 9е)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "145",
+    "object_repr": "Ведущий инженер по телекоммуникациям",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "144",
+    "object_repr": "Менеджер по продажам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.581Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "143",
+    "object_repr": "Руководитель группы контента",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.657Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "142",
+    "object_repr": "Продавец-консультант",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.815Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "141",
+    "object_repr": "Middle/Senior QA Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2021-03-12T17:11:05.966Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "140",
+    "object_repr": "Специалист службы поддержки в сервис Яндекс.Еда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2021-03-12T17:11:06.074Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "139",
+    "object_repr": "Интернет-маркетолог в онлайн-школу",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2021-03-12T17:11:06.141Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "138",
+    "object_repr": "Менеджер по продажам (входящий поток клиентов)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2021-03-12T17:11:06.191Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "137",
+    "object_repr": "Системный администратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2021-03-12T17:11:06.265Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "136",
+    "object_repr": "Менеджер по продажам ИТ (компьютеры и оргтехника)",
+    "action_flag": 3,
+    "change_message": ""
+  },
