@@ -1,1768 +1,945 @@
 [
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 1,
   "fields": {
-    "action_time": "2021-03-11T16:47:30.584Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "1",
-    "object_repr": "Москва",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Москва",
+    "slug": "moscow"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 2,
   "fields": {
-    "action_time": "2021-03-11T16:47:48.318Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Python",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Челябинск",
+    "slug": "челябинск"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 3,
   "fields": {
-    "action_time": "2021-03-11T17:15:52.978Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "2",
-    "object_repr": "fsdgdrg@gmail.com",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Екатеринбург",
+    "slug": "екатеринбург"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 4,
   "fields": {
-    "action_time": "2021-03-11T17:16:00.783Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "2",
-    "object_repr": "fsdgdrg@gmail.com",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Prof\", \"City\"]}}]"
+    "name": "Санкт-Петербург",
+    "slug": "санкт петербург"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 5,
   "fields": {
-    "action_time": "2021-03-11T17:16:05.576Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "1",
-    "object_repr": "lautariano777@gmail.com",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Prof\", \"City\"]}}]"
+    "name": "Ростов-на-Дону",
+    "slug": "ростов на дону"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 6,
   "fields": {
-    "action_time": "2021-03-11T17:40:13.017Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "1",
-    "object_repr": "Url object (1)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Нижний Новгород",
+    "slug": "нижний новгород"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 7,
   "fields": {
-    "action_time": "2021-03-12T06:35:43.429Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "1",
-    "object_repr": "Url object (1)",
-    "action_flag": 3,
-    "change_message": ""
+    "name": "Воронеж",
+    "slug": "воронеж"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 8,
   "fields": {
-    "action_time": "2021-03-12T06:36:13.885Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "2",
-    "object_repr": "Url object (2)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Новосибирск",
+    "slug": "новосибирск"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 9,
   "fields": {
-    "action_time": "2021-03-12T13:39:27.221Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "2",
-    "object_repr": "Url object (2)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Url data\"]}}]"
+    "name": "Казань",
+    "slug": "казань"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 10,
   "fields": {
-    "action_time": "2021-03-12T15:02:24.131Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "2",
-    "object_repr": "Челябинск",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Тюмень",
+    "slug": "тюмень"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 11,
   "fields": {
-    "action_time": "2021-03-12T15:03:09.862Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "3",
-    "object_repr": "Екатеринбург",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Пермь",
+    "slug": "пермь"
   }
 },
 {
-  "model": "admin.logentry",
+  "model": "scraping.city",
   "pk": 12,
   "fields": {
-    "action_time": "2021-03-12T15:06:21.198Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "4",
-    "object_repr": "Санкт-Петербург",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Самара",
+    "slug": "самара"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 13,
+  "model": "scraping.nameprof",
+  "pk": 1,
   "fields": {
-    "action_time": "2021-03-12T15:06:54.943Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "5",
-    "object_repr": "Ростов-на-Дону",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "name": "Python",
+    "slug": "python"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 14,
+  "model": "scraping.vacancy",
+  "pk": 251,
   "fields": {
-    "action_time": "2021-03-12T15:07:09.657Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "6",
-    "object_repr": "Нижний Новгород",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/42301915?query=python",
+    "title": "DevOps Engineer",
+    "company": " ZAVOD Games",
+    "description": "Автоматизация процессов на бэкэнде. Работа с Docker, Kubernetes, Terraform, Ansible. Организация процессов CI/CD. Настройка и поддержка сервисов для backoffice. Опыт администрирования Kubernetes кластера от года. Опыт программирования на Go, Python или TypeScript от 2-х лет. Опыт работы от...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 15,
+  "model": "scraping.vacancy",
+  "pk": 252,
   "fields": {
-    "action_time": "2021-03-12T15:07:19.656Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "7",
-    "object_repr": "Воронеж",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/42831306?query=python",
+    "title": "Full-Stack (React.js + Node.js/Python) Developer to the UAE",
+    "company": " Soshace",
+    "description": "React.js. Knowledge of back-end technologies: Typescript / Python / JavaScript. MySQL / PostgreSQL / Oracle or MongoDB is a plus. API design and...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 16,
+  "model": "scraping.vacancy",
+  "pk": 253,
   "fields": {
-    "action_time": "2021-03-12T15:07:34.508Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "8",
-    "object_repr": "Новосибирск",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/39912622?query=python",
+    "title": "Data Scientist / Quantitative Researcher",
+    "company": "ООО Знаменка Капитал",
+    "description": "Разработка и оценка статистических моделей, алгоритмов машинного обучения для больших и зашумленных наборов рыночных данных, с целью поиска и проверки...Владение языками программирования для статистической обработки и визуализации данных (Python, R), необходимыми программными библиотеками для них. Сильное системное мышление и...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 17,
+  "model": "scraping.vacancy",
+  "pk": 254,
   "fields": {
-    "action_time": "2021-03-12T15:07:48.153Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "9",
-    "object_repr": "Казань",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/41407110?query=python",
+    "title": "Senior Backend Python/Django разработчик (удалённо)",
+    "company": " Школа программирования Kodland",
+    "description": "Разрабатывать новые фичи и видеть от них результат. Участвовать в развитии проекта, планировать и предлагать свои идеи. Работать с основателями...Имеешь опыт работы в индустрии от трёх лет. Хорошо знаешь Python, работал с Django и готов рассказать о предыдущем опыте...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 18,
+  "model": "scraping.vacancy",
+  "pk": 255,
   "fields": {
-    "action_time": "2021-03-12T15:07:55.800Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "10",
-    "object_repr": "Тюмень",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/42676588?query=python",
+    "title": "Python Программист разработчик",
+    "company": "ООО РНД поинт",
+    "description": "Разработка решения для хранения данных и интеграция с бэкендом на Python. Реализация в соответствии с парадигмой архитектуры микросервисов с использованием...Практический опыт работы с библиотеками обработки данных Python (pandas, numpy). Опыт работы с архитектурой микросервисов и лямбда-выражениями AWS является...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 19,
+  "model": "scraping.vacancy",
+  "pk": 256,
   "fields": {
-    "action_time": "2021-03-12T15:08:20.448Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "11",
-    "object_repr": "Пермь",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/42937504?query=python",
+    "title": "Backend-разработчик (Python)",
+    "company": " SOCIARO Inc.",
+    "description": "В составе опытной команды предстоит решать задачи связанные с data mining. Необходимо будет разрабатывать сервисы по сбору и хранению данных...У вас должен быть опыт работы с: Python, Django, SQL (MySQL/PostgreSQL), Docker, Git, написанием асинхронного и многопоточного кода. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 20,
+  "model": "scraping.vacancy",
+  "pk": 257,
   "fields": {
-    "action_time": "2021-03-12T15:08:26.893Z",
-    "user": 1,
-    "content_type": 6,
-    "object_id": "12",
-    "object_repr": "Самара",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/41263186?query=python",
+    "title": "Senior Python developer",
+    "company": " Rutube",
+    "description": "Backend сайта и внутренних сервисов. Highload-сервисы Go/async Python. Системы обработки видео. Системы балансировки нагрузки и хранения больших файлов...Опыт разработки высоконагруженных web-проектов на Python. Опыт работы с реляционными базами данных и хорошие знания SQL. Желание участвовать в...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 21,
+  "model": "scraping.vacancy",
+  "pk": 258,
   "fields": {
-    "action_time": "2021-03-12T15:14:41.074Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "3",
-    "object_repr": "Url object (3)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "url": "https://chelyabinsk.hh.ru/vacancy/42970947?query=python",
+    "title": "Разработчик Python",
+    "company": "ООО Анлимитед Продакшен",
+    "description": "Разрабатывать внутренние продукты. Совершенствовать платформу. Заниматься созданием админки и веб сервисов. Проводить code review. Участвовать в оценке задач и проектировании...Опыт разработки на python 3.6/3.7. Практический опыт разработки от полугода с использованием асинхронных фреймворков (fastapi,aiohttp и...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 22,
+  "model": "scraping.vacancy",
+  "pk": 259,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.465Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "250",
-    "object_repr": "Менеджер по продажам IT-продуктов",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42343352?query=python",
+    "title": "Senior Python developer( teamlead)/ Middle Python developer",
+    "company": " ASD Korea",
+    "description": "Участие в разработке бэкенда Cloudike Business. Участие в разработке ПК клиента Cloudike Business. Написание и поддержка юнит-тестов для своего...Watchdog, pyqt4 & pyqt5 python packages. OSX & Windows application build systems (Xcode, Inno Setup). Linux, Docker, Git, Jenkins. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 23,
+  "model": "scraping.vacancy",
+  "pk": 260,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.515Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "249",
-    "object_repr": "Менеджер по продажами в В2В",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42432726?query=python",
+    "title": "Data Engineer (Python)",
+    "company": " Prisma Labs, inc.",
+    "description": "Топовое железо и софт для работы, сервера с GPU.Опыт разработки Python от 3 лет (работа или проекты; знание Python). Стаж Python-разработчика от 1 года (работа в команде). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 24,
+  "model": "scraping.vacancy",
+  "pk": 261,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.583Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "248",
-    "object_repr": "Старший разработчик (Java, биоинформатика)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42411532?query=python",
+    "title": "Программист Python/JavaScript секретарь",
+    "company": "ООО ИнфоТех",
+    "description": "Секретарской работы минимум! Основной работой будет участие в создании нового интересного проекта. Вам придется спроектировать и написать с нуля большую...Знание Python/JavaScript. Способность к творческому решению поставленных задач. Желание изучать новые компьютерные технологии и методы разработки. Будет плюсом: Знакомство...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 25,
+  "model": "scraping.vacancy",
+  "pk": 262,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.658Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "247",
-    "object_repr": "Менеджер по продажам",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42882086?query=python",
+    "title": "Python-Разработчик (удаленно)",
+    "company": " BestDoctor",
+    "description": "Ядро: ключевая архитектура и API нашей айти-инфраструктуры. Пользовательская разработка: мобильные приложения, веб-кабинеты, API для внешних интеграций. Опыт коммерческой разработкой на Python от 3 лет, хорошее знание самого языка, умение работать с Django, с PostgreSQL. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 26,
+  "model": "scraping.vacancy",
+  "pk": 263,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.742Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "246",
-    "object_repr": "Angular Developer",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42453126?query=python",
+    "title": "Data Engineer",
+    "company": " Prequel",
+    "description": "Внедрить культуру сбора, обработки и хранения множества данных (ETL) из разных частей системы (в бэкенде мы используем PostgreSQL). Опыт работы с Clickhouse (эксплуатация, настройка, тюнинг). Опыт работы с Hadoop и Spark. Большим плюсом будет знание Python, Java или...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 27,
+  "model": "scraping.vacancy",
+  "pk": 264,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.825Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "245",
-    "object_repr": "Системный аналитик BI",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42620710?query=python",
+    "title": "Ведущий Python разработчик (Senior/Middle+ Developer)",
+    "company": "ООО PROGNET",
+    "description": "С++.Успешный опыт в проектах по разработке информационных систем на Python в качестве ключевого разработчика. Понимание основных механизмов работы нагруженных web...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 28,
+  "model": "scraping.vacancy",
+  "pk": 265,
   "fields": {
-    "action_time": "2021-03-12T17:10:36.907Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "244",
-    "object_repr": "Региональный менеджер по продажам",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42879573?query=python",
+    "title": "Python/Scrapy разработчик",
+    "company": " Datacrafts",
+    "description": "Разработка скреперов для сбора исходных данных из различных источников. Разработка способов взаимодействия с веб частью приложения (RPC, RabbitMQ). Умение поддерживать адекватную коммуникацию в распределенной команде, коммуникабельность, инициативность, участие в созвонах. Python asyncio. Mypy. RabbitMQ. Poetry/pipenv. Python multiprocessing. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 29,
+  "model": "scraping.vacancy",
+  "pk": 266,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.000Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "243",
-    "object_repr": "Руководитель проектов по строительству ЦОД",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42770299?query=python",
+    "title": "Backend Python Developer (USD Salary, Remote)",
+    "company": " Gravitum",
+    "description": "Working with back-end development and server-side engineering. Write effective, scalable, extensible, and testable code. Developing backend components to...3+ years in or backend software development. Advanced knowledge of Python, Django, RESTful APIs. Experience developing in Unix/Linux...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 30,
+  "model": "scraping.vacancy",
+  "pk": 267,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.206Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "242",
-    "object_repr": "Программист-разработчик",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42251823?query=python",
+    "title": "Программист-математик/Алгоритмист (США)",
+    "company": "ООО Parascript",
+    "description": "Разработка, настройка и оптимизация алгоритмов обработки (распознавания, интерпретации) изображений на основе существующего кода на С++ и С#. Разработка новых алгоритмов.Опыт разработки алгоритмов Image Processing, Machine Learning, Deep Learning. Знание современных методов классификации/регрессии/кластеризации. Опыт работы на Python. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 31,
+  "model": "scraping.vacancy",
+  "pk": 268,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.325Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "241",
-    "object_repr": "C# Programmer, Unity (Consoles)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42683816?query=python",
+    "title": "Data Scientist",
+    "company": "ООО Максконсалт",
+    "description": "Носимые устройства для мониторинга здоровья. Датчики и сенсоры для отслеживания вредных факторов на производстве. Устройства для мониторинга благополучного влияния на...Практический опыт работы с SciPy, Pandas, SkLearn, Pytorch. TensorFlow.",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 32,
+  "model": "scraping.vacancy",
+  "pk": 269,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.408Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "240",
-    "object_repr": "Менеджер по продажам B2B",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42808923?query=python",
+    "title": "Python/Go разработчик",
+    "company": " Quiet Media",
+    "description": "Разработка микросервисов в сфере Telecom. Интеграция с сервисами крупнейших операторов связи и интернет-провайдеров. Участие в проектировании архитектуры и code...Уверенное владение Go. Уверенное владение Python 3.7+. Опыт работы хотя бы с одним фреймворкам (Flask/Django/etc). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 33,
+  "model": "scraping.vacancy",
+  "pk": 270,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.474Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "239",
-    "object_repr": "Специалист по контекстной рекламе (Таргетолог)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/39388485?query=python",
+    "title": "Senior Python Backend Developer (Machine Learning)",
+    "company": " FunCorp",
+    "description": "Сервис распознавания текста из изображений. Сервис нечёткого поиска дубликатов изображений. Сервис рекомендаций контента. Сервис предварительной оценки загружаемого контента. Отлично знать Python 3, Flask или Gunicorn, иметь опыт написания асинхронного кода с использованием AsyncIO. Иметь опыт построения и поддержки...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 34,
+  "model": "scraping.vacancy",
+  "pk": 271,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.542Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "238",
-    "object_repr": "Full Stack разработчик (React.js, Node.js)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42633232?query=python",
+    "title": "Python backend разработчик",
+    "company": " UAB Softeka",
+    "description": "Ротация задач (разработка новых бизнес-решений/развитие. Что нужно будет делать? — Решать технические и бизнес задачи при разработке новых и. Знание и опыт работы с Python, чем больше - тем лучше. Умение анализировать чужой код и вдумчиво писать свой с учётом. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 35,
+  "model": "scraping.vacancy",
+  "pk": 272,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.608Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "237",
-    "object_repr": "PHP/Laravel разработчик",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42544459?query=python",
+    "title": "Middle/Senior ML Engineer",
+    "company": " Gradient",
+    "description": "Имеет опыт работы в качестве ML Engineer или CV Engineer от года. Имеет как минимум 2 написанных с нуля проектов...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 36,
+  "model": "scraping.vacancy",
+  "pk": 273,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.657Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "236",
-    "object_repr": "Ведущий инженер группы интерконнекта, сбора и преобразования данных",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42916478?query=python",
+    "title": "Senior Software Engineer (Python)",
+    "company": "ООО Алемира Рисерч",
+    "description": "Designing, developing and maintaining reliable and scalable services for cloud-based digital learning ecosystem.3+ years experience in Python, good knowledge of Django. Good knowledge of containers and networking. Ability to speak and...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 37,
+  "model": "scraping.vacancy",
+  "pk": 274,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.717Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "235",
-    "object_repr": "Специалист call-центра (удаленно)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42715899?query=python",
+    "title": "Аналитик данных / Data analyst",
+    "company": "ООО GetBlogger",
+    "description": "Самостоятельно формулировать вопросы, относящиеся к нашему бизнесу, и отвечать на них, пользуясь реальными цифрами. Разрабатывать алгоритмы и модели для развития...Имеете высшее техническое образование, хорошо знаете математику и владеете основами статистики. Пишете на Python и/или других скриптовых языках. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 38,
+  "model": "scraping.vacancy",
+  "pk": 275,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.775Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "234",
-    "object_repr": "Director of Marketing Communications",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42878463?query=python",
+    "title": "Senior Fullstack Developer (Python, React, remote)",
+    "company": " Hunt For You",
+    "description": "Разработка API, разработка MVP фич, web apps (полностью самостоятельно: бекенд, фронтенд, выкатывание). Работа с данными, оптимизация сложных запросов к БД. Опыт разработки на Python 5+ лет. В идеале - с Django Rest Framework или Django. Опыт на фронтенде (JS, любой...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 39,
+  "model": "scraping.vacancy",
+  "pk": 276,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.850Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "233",
-    "object_repr": "Менеджер по продажам (В2В) со знанием английского языка",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42990902?query=python",
+    "title": "Python Developer - Data Scientist",
+    "company": " Группа КБ-12",
+    "description": "Строить предиктивные модели и сопровождать существующие модели. Обрабатывать большие массивы данных с использованием Big Data инструментов. Сбор данных из разных...Понимание цифровой обработки сигналов (DSP), способов обработки. Уверенное знание Python (+ классический набор библиотек для анализа данных/ машинного обучения: scikit...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 40,
+  "model": "scraping.vacancy",
+  "pk": 277,
   "fields": {
-    "action_time": "2021-03-12T17:10:37.916Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "232",
-    "object_repr": "Web-разработчик",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42783307?query=python",
+    "title": "Аналитик Data Science / Аналитик данных",
+    "company": " СИЛА В МЫСЛИ",
+    "description": "Сбор и подготовка данных из различных хранилищ. Обработка и анализ данных данных с использованием математических и статистических методов. Выявление закономерностей. Владение средствами и методами анализа больших данных. Знание языков программирования (Python, SQL, и другие). Знание и умение использовать инструменты визуализации...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 41,
+  "model": "scraping.vacancy",
+  "pk": 278,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.042Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "231",
-    "object_repr": "Java Developer",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/41546782?query=python",
+    "title": "Senior Python/Go Engineer - Backend Product team [Remote]",
+    "company": " Coins.ph",
+    "description": "Maintain and support core product team microservices written in Go and Python. We are moving from Python to Go stack...Knowledge of Python and Go, Django, noSQL and relational databases. At least 4 years of commercial experience in designing, developing...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 42,
+  "model": "scraping.vacancy",
+  "pk": 279,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.090Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "230",
-    "object_repr": "Системный аналитик",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42951641?query=python",
+    "title": "Python разработчик (middle) (backend)",
+    "company": "ООО Лендсбэй",
+    "description": "Опыт работы с PostgreSQL обязателен. Понимание как работает python/go с PostgreSQL посредством драйверов, особенности работы. Опыт разработки REST API...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 43,
+  "model": "scraping.vacancy",
+  "pk": 280,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.141Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "229",
-    "object_repr": "QA engineer SberDevices (направление B2B2C)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42956307?query=python",
+    "title": "Data Scientist (middle or senior)",
+    "company": "ООО РАБЛЗ",
+    "description": "Моделирование и обработка данных на Python для извлечения бизнес-ценности из данных. Глубокое обсуждение задач и методов их решения совместно...Опыт использования ml библиотек на Python (бустинг, нейронные сети и др.) и понимание особенностей реализации различных аспектов алгоритмов в коде. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 44,
+  "model": "scraping.vacancy",
+  "pk": 281,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.200Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "228",
-    "object_repr": "Senior iOS Developer (Swift)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42880923?query=python",
+    "title": "Data scientist",
+    "company": "ЗАО Группа компаний С7",
+    "description": "Разрабатывать и внедрять модели машинного обучения на Python. Разобраться в непростой бизнес-логике авиационных процессов. Придумывать и тестировать новые модели...Участвовали в разработке важных и прибыльных продуктов. Хорошо знакомы со стеком технологий для работы с BigData. Python на хорошем уровне.",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 45,
+  "model": "scraping.vacancy",
+  "pk": 282,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.266Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "227",
-    "object_repr": "DevOps Engineer",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42806929?query=python",
+    "title": "Backend developer",
+    "company": " Интернет-агентство Simple Media",
+    "description": "Программирование на Python не менее 3-х лет (Go как плюс). Опыт с Django Framework обязательно. Высшее образование (техническое желательно). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 46,
+  "model": "scraping.vacancy",
+  "pk": 283,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.315Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "226",
-    "object_repr": "Агент выездных продаж (вечернее время)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42398844?query=python",
+    "title": "Middle/senior Python Developer",
+    "company": " Климов Станислав Игоревич",
+    "description": "Разрабатываем web-приложение для мониторинга транспорта ЖКХ г.Москвы с использованием ГЛОНАСС. Основной функционал приложения – это карта, на которой отображается движение...Опыт командной бэкенд-разработки web-проектов. Опыт разработки и асинхронных приложений. Умение писать оптимальные SQL-запросы. Самостоятельность, неконфликтность, конструктивный подход...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 47,
+  "model": "scraping.vacancy",
+  "pk": 284,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.374Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "225",
-    "object_repr": "Интернет-маркетолог",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42965194?query=python",
+    "title": "Middle data scientist",
+    "company": " МАГНИТ, Розничная сеть",
+    "description": "Разработка дерева принятия решений клиентами. Задачи сегментации клиентов и товаров. Оптимизация ассортимента. Построение оптимизационной модели для промо и регулярного ценообразования. Опыт работы с данными (на примере минимум 1й библиотеки python). Опыт работы с данными посредством SQL (на примере одной...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 48,
+  "model": "scraping.vacancy",
+  "pk": 285,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.449Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "224",
-    "object_repr": "Менеджер по продажам интернет-рекламы / digital",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/36267171?query=python",
+    "title": "Python developer",
+    "company": " B2Broker Москва",
+    "description": "Имеет опыт коммерческой разработки на Python 3 от 6 лет. Знает и умеет использовать: итераторы, генераторы, потоки. Отлично владеет знаниями...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 49,
+  "model": "scraping.vacancy",
+  "pk": 286,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.540Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "223",
-    "object_repr": "Business Analyst",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42926388?query=python",
+    "title": "Data Engineer",
+    "company": " Level.Travel",
+    "description": "Написание новых приложений, скриптов и микросервисов на Python, их интеграция в основные продукты компании, участие в разработке уже имеющихся в...Python, MySQL/PostgreSQL. Уметь решать ETL-задачи с большими данными. Умение самостоятельно продумать решение и довести его до конца. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 50,
+  "model": "scraping.vacancy",
+  "pk": 287,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.633Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "222",
-    "object_repr": "Менеджер по продажам",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/36618179?query=python",
+    "title": "Ведущий программист Python",
+    "company": "ООО ФК ПУЛЬС",
+    "description": "Участие в разработке внутренних проектов компании: сайт, портал, системы учета/сбора данных и другие.Отличное знание Python 3.7, Django>=2.0, DRF, Celery. Хорошее знание SQL и опыт работы с реляционными базами данных...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 51,
+  "model": "scraping.vacancy",
+  "pk": 288,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.715Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "221",
-    "object_repr": "Project Manager",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/41883876?query=python",
+    "title": "Разработчик по оптимизации бизнес-процессов (Python)",
+    "company": " ДИКСИ. Офис",
+    "description": "Инициация и ведение проектов в части автоматизации и оптимизации бизнес-процессов. Анализ и описание бизнес-процессов As Is, моделирование и...У тебя есть базовые знания и ты готов изучать такие языки как: Python, C#, vb.net, SQL и др. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 52,
+  "model": "scraping.vacancy",
+  "pk": 289,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.808Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "220",
-    "object_repr": "Full Stack разработчик ASP.NET+Angular (Проект \"Портал корпоративного бизнеса\")",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42967698?query=python",
+    "title": "Data Scientist",
+    "company": " ИДС Боржоми",
+    "description": "Участие в проектах по созданию комплексных моделей прогнозирования с применением машинного обучения и проведению статистических анализов. Методологические и практические задачи...Опыт решения задач machine learning. Уверенные навыки работы с R / Python (jupyter, numpy, scipy, pandas, scikit-learn, xgboost). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 53,
+  "model": "scraping.vacancy",
+  "pk": 290,
   "fields": {
-    "action_time": "2021-03-12T17:10:38.899Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "219",
-    "object_repr": "Marketing Specialist",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42620422?query=python",
+    "title": "Аналитик-исследователь",
+    "company": "ООО Высшая Школа Образования",
+    "description": "Собирать и анализировать литературу для исследования. Работать с научной литературой на английском языке. Разрабатывать и обосновывать методологию, схему и гипотезы...Наличие продвинутого уровень в одном из основных пакетов, помимо Excel (Например: STATA, R, EViews, SPSS, Python, MATLAB, Gretl). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 54,
+  "model": "scraping.vacancy",
+  "pk": 291,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.007Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "218",
-    "object_repr": "Business Development Manager and Marketing manager",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42869125?query=python",
+    "title": "Аналитик данных Python",
+    "company": "ООО Страховая компания «Сбербанк страхование»",
+    "description": "Подготовка исходных данных для расчета тарифов в виде таблиц. Проектирование таблиц для расчета тарифов многофакторных тарифных систем. Аналитика данных. Понимание SOLID, паттернов проектирования, классических алгоритмов и структур данных. Опыт работы с Python (желательно). Знакомство с Git и *nix-системами.",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 55,
+  "model": "scraping.vacancy",
+  "pk": 292,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.099Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "217",
-    "object_repr": "Менеджер по продажам.",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42254250?query=python",
+    "title": "Инженер по автоматизации тестирования / Python разработчик",
+    "company": "ООО Основа Лаб",
+    "description": "Разработка и поддержка Python-модулей согласно ТЗ (python 3.7). Разработка и поддержка автоматизированных тестов согласно предоставленным ПМИ. Навыки ООП программирования на языке python. Умение работать с сокетами через python. Уверенная работа с *nix системами (язык интерпретатора Bash...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 56,
+  "model": "scraping.vacancy",
+  "pk": 293,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.265Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "216",
-    "object_repr": "Руководитель по работе с маркетплейсами",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42954255?query=python",
+    "title": "Python разработчик",
+    "company": "ИП IT studio Arkell",
+    "description": "Разработка нового функционала. Поддержка и развитие существующего.Знание Python 3. Опыт объектно-ориентированного программирования на Python. Опыт работы с Git. Умение писать чистый код и читаемый код. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 57,
+  "model": "scraping.vacancy",
+  "pk": 294,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.424Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "215",
-    "object_repr": "Менеджер по продажам",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/39775853?query=python",
+    "title": "Data scientst (модели машинного обучения)",
+    "company": " Газпромбанк",
+    "description": "Работа с массивами больших данных. Разработка моделей машинного обучения. Проверка гипотез, проведение A/B тестирования и пилотных проектов. Оптимизация моделей. Уверенное знание python. Опыт практического применения прикладных библиотек (pandas, sklearn, numpy и др.). Опыт решения практическких задач с применением методов...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 58,
+  "model": "scraping.vacancy",
+  "pk": 295,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.565Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "214",
-    "object_repr": "Специалист по работе с пользователями Федеральных проектов",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42917411?query=python",
+    "title": "Data Scientist",
+    "company": " КСК-Эйч Ар",
+    "description": "Оптимизировать технологические процессы – делать больше продукции при меньших затратах. Снижать издержки – предсказывать и предотвращать поломки оборудования. Выполнять задачи, направленные на...Опыт работы в области анализа данных и машинном обучении. Знание Python + pandas + scikit-learn + numpy. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 59,
+  "model": "scraping.vacancy",
+  "pk": 296,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.650Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "213",
-    "object_repr": "2D художник-иллюстратор",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42924262?query=python",
+    "title": "Программист Python / Team Lead",
+    "company": " Runexis",
+    "description": "Разработка на Python /MariaDB для портала управления облачной сетью.Отличное знание Python, SQL. Хорошее знание Linux, опыт разработки под Linux. Большой опыт работы с СУБД - MariaDB/MySQL – обязательно. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 60,
+  "model": "scraping.vacancy",
+  "pk": 297,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.792Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "212",
-    "object_repr": "React.js Developer",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42482294?query=python",
+    "title": "Data Science Specialist",
+    "company": "ООО Джуси Лабс",
+    "description": "Круг решаемых задач: Выгрузка данных из внутренних продуктовых баз (PostgreSQL). Построение отчетности в формате сводных таблиц. Автоматизация расчета агрегатов в...Базовые знания методов математической статистики. - Знание на хорошем уровне Python. - Знание основ SQL. - Знания JS, GO приветствуются. - Базовое понимание работы...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 61,
+  "model": "scraping.vacancy",
+  "pk": 298,
   "fields": {
-    "action_time": "2021-03-12T17:10:39.940Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "211",
-    "object_repr": "Менеджер по продажам / Специалист по продажам услуг",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42615019?query=python",
+    "title": "Senior/Middle Python Developer (Remote)",
+    "company": " SUNLIGHT/САНЛАЙТ",
+    "description": "Разработка, code review, рефакторинг кода. Сопровождение и документирование написанного кода. Участие в проектировании систем. Оптимизация сервисов под высокие нагрузки.Опыт разработки Python (2.7/3) – от 2 лет. Знание SQL – MySQL или PostgreSQL. Уверенный пользователь *nix. Опыт работы с...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 62,
+  "model": "scraping.vacancy",
+  "pk": 299,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.041Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "210",
-    "object_repr": "Ведущий программист 1С",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42617637?query=python",
+    "title": "Senior/Middle ML Engineer (Data Scientist)",
+    "company": "ООО Адаперио",
+    "description": "Разработка и внедрение моделей машинного обучения для оценки качества и ликвидности автомобиля с пробегом. Анализ датасетов, их подготовка, валидация. Уверенное знание SQL (мы это точно проверим на собеседовании). Знание современных алгоритмов ML/DL. Знание мат статистики. Python.",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 63,
+  "model": "scraping.vacancy",
+  "pk": 300,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.141Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "209",
-    "object_repr": "DevOps инженер",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42588736?query=python",
+    "title": "Senior Data Scientist /Quantitative Analyst (Кипр)",
+    "company": " Skanestas Investments Limited",
+    "description": "Создание сложных торговых алгоритмов, статистических моделей. Проведение глубокого анализа данных с целью выявления паттернов для применения в реальной биржевой торговле. Сильные знания в области статистики, математического анализа, линейной алгебры, теории вероятности, машинного обучения. Знание языка программирования Python на уровне Middle...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 64,
+  "model": "scraping.vacancy",
+  "pk": 301,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.224Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "208",
-    "object_repr": "Environment artist / художник окружения",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/40608975?query=python",
+    "title": "Python Developer",
+    "company": "ООО Paysend",
+    "description": "Вместе с командой перезапустить один из наших продуктов - торговую площадку для онлайн бизнеса. Принимать сложные архитектурные решения. Работать по двухнедельным...Опыт работы с Python от 3-х лет. Опыт работы с одним из следующих фреймворков: Flask, Django, Sanic, Aiohttp, Pyramid. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 65,
+  "model": "scraping.vacancy",
+  "pk": 302,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.340Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "207",
-    "object_repr": "2D художник (игровая изометрия)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42882919?query=python",
+    "title": "Аналитик данных / Data scientist",
+    "company": "ООО Лендсбэй",
+    "description": "Применение DS для: - Участия в построении скоринга заемщиков. - Построения алгоритма поиска типизированных событий и их классификация. - Ценообразования продуктов. - Программирование: основы и опыт в Python. Опыт в исследовательских проектах (желательно). Понимание технологий обработки больших данных (желательно). Нейросети(желательно). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 66,
+  "model": "scraping.vacancy",
+  "pk": 303,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.440Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "206",
-    "object_repr": "QA Architect",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42894144?query=python",
+    "title": "Инженер сетевой инфраструктуры/Разработчик Python",
+    "company": "ИП Птушкин Владислав Сергеевич",
+    "description": "Подбор, заказ, настройка, поиск площадок для размещения VoIP оборудования. Интеграция оборудования в единую систему управления/мониторинга. Доработка/развитие системы управления...Опыт работы от 2 лет. Навыки: ООП, HTTP API, Flask/FastAPI/.... Понимание контейнеризации приложений, микросервисной архитектуры, docker/k8s. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 67,
+  "model": "scraping.vacancy",
+  "pk": 304,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.540Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "205",
-    "object_repr": "Монтажник слаботочных систем",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42869180?query=python",
+    "title": "Data Scientist в команду CRM",
+    "company": " Райффайзенбанк",
+    "description": "Среди наших задач - uplift, pricing, user embeddings, подбор канала и времени коммуникации, рекомендации по категориям кешбэка, рекомендации по партнерам программы...Опыт решения задач дискретной оптимизации. Отличное знание основных методов и алгоритмов ML. Python + ML стек под него, Spark, SQL. ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 68,
+  "model": "scraping.vacancy",
+  "pk": 305,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.640Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "204",
-    "object_repr": "Системний адміністратор",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42995858?query=python",
+    "title": "Python Developer (Remote)",
+    "company": " UpTeam",
+    "description": "Extend GameDay (Chaos Engineering) scenarios. Design and write technical specifications for future coverage by CFN templates and SSM documents. 3+ years of experience with Python. Intermediate+ English to communicate by email and on conference calls. Experience in building...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 69,
+  "model": "scraping.vacancy",
+  "pk": 306,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.740Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "203",
-    "object_repr": "Technical Expert/Support",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42965791?query=python",
+    "title": "Проверяющий преподаватель на курс \"Python-фреймворк Django\"",
+    "company": " Skillbox",
+    "description": "Проверять работы студентов курсов по курсу \"Python-фреймворк Django\". Давать обратную связь студентам по выполненным заданиям в письменном виде и...Знать Python-фреймворк Django и работать с ним на регулярной основе.",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 70,
+  "model": "scraping.vacancy",
+  "pk": 307,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.840Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "202",
-    "object_repr": "JavaScript разработчик",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42892813?query=python",
+    "title": "Python-разработчик (Корпоративный портал Rambler Group)",
+    "company": " Rambler Group",
+    "description": "Разработка и развитие функционала корпоративного интранет-портала. Разработка новых фич, сервисов для сотрудников группы компаний, развитие компонентной библиотеки. Коммерческий опыт разработки от 1 года. Налаженные коммуникации в команде.",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 71,
+  "model": "scraping.vacancy",
+  "pk": 308,
   "fields": {
-    "action_time": "2021-03-12T17:10:40.941Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "201",
-    "object_repr": "Специалист по продажам продуктов 1С",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42955168?query=python",
+    "title": "Аналитик данных",
+    "company": " Angara Technologies Group",
+    "description": "Подготовка и очистка данных с использованием инструментов обработки данных (в частности Python, Logstash), реализация процесса ETL\\ELT. Контроль качества данных......данных с использованием таких инструментов как Python. Навыки SQL. Уверенный пользователь Linux (Shell). ELK. Python (*SQL, scikit-learn, pandas, numpy). ",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 72,
+  "model": "scraping.vacancy",
+  "pk": 309,
   "fields": {
-    "action_time": "2021-03-12T17:10:41.040Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "200",
-    "object_repr": "Менеджер по привлечению клиентов направления Маркетплейс",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42920589?query=python",
+    "title": "Data scientist",
+    "company": "ООО Лидгид",
+    "description": "Разработка кастомных моделей машинного обучения для улучшения качества таргетированной рекламы в программатике. Обработка текста и изображений на Web сайтах. Опыт решения задач в области анализа данных и машинного обучения. Высшее математическое образование. Знание Python. Понимание инфраструктуры и рынка интернет...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
 {
-  "model": "admin.logentry",
-  "pk": 73,
+  "model": "scraping.vacancy",
+  "pk": 310,
   "fields": {
-    "action_time": "2021-03-12T17:10:41.165Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "199",
-    "object_repr": "Ведущий эфира (Онлайн-вебинары, Clubhouse)",
-    "action_flag": 3,
-    "change_message": ""
+    "url": "https://chelyabinsk.hh.ru/vacancy/42968710?query=python",
+    "title": "Data Analyst",
+    "company": " Hunt For You",
+    "description": "Проект - ведущая электронная площадка по продаже автозапчастей и автотоваров B2C/B2B). 1,5 млрд предложений от...Опыт работы с одним из BI-инструментов (QlikSense, Power BI, Tableau). Навык анализа данных и визуализации на Python (NumPy, Pandas...",
+    "city": 1,
+    "prof": 1,
+    "earning": "1",
+    "timestamp": "2021-03-12"
   }
 },
-{
-  "model": "admin.logentry",
-  "pk": 74,
-  "fields": {
-    "action_time": "2021-03-12T17:10:41.265Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "198",
-    "object_repr": "Golang engineer",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 75,
-  "fields": {
-    "action_time": "2021-03-12T17:10:41.365Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "197",
-    "object_repr": "Аналитик данных (Data scientist)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 76,
-  "fields": {
-    "action_time": "2021-03-12T17:10:41.457Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "196",
-    "object_repr": "Руководитель отдела аренды",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 77,
-  "fields": {
-    "action_time": "2021-03-12T17:10:41.576Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "195",
-    "object_repr": "Front-end developer",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 78,
-  "fields": {
-    "action_time": "2021-03-12T17:10:41.742Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "194",
-    "object_repr": "Web Designer / UX Designer",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 79,
-  "fields": {
-    "action_time": "2021-03-12T17:10:41.924Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "193",
-    "object_repr": "Специалист отдела продаж",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 80,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.115Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "192",
-    "object_repr": "Менеджер по продажам услуг (горячие заявки)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 81,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.232Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "191",
-    "object_repr": "Начинающий специалист",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 82,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.375Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "190",
-    "object_repr": "Заместитель руководителя группы системного администрирования",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 83,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.490Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "189",
-    "object_repr": "Assistant to Head of Agency/Помощник руководителя агентства",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 84,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.600Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "188",
-    "object_repr": "Специалист поддержки пользователей",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 85,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.815Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "187",
-    "object_repr": "Системный администратор",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 86,
-  "fields": {
-    "action_time": "2021-03-12T17:10:42.940Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "186",
-    "object_repr": "Менеджер по продажам в магазин",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 87,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.015Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "185",
-    "object_repr": "Художник по персонажам",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 88,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.116Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "184",
-    "object_repr": "Менеджер по продажам в Яндекс.Недвижимость",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 89,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.215Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "183",
-    "object_repr": "QA engineer",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 90,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.332Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "182",
-    "object_repr": "Менеджер по лизингу",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 91,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.449Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "181",
-    "object_repr": "Специалист службы поддержки пользователей",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 92,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.558Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "180",
-    "object_repr": "Специалист по тестированию",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 93,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.623Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "179",
-    "object_repr": "Младший 2D художник-иллюстратор",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 94,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.708Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "178",
-    "object_repr": "Специалист по продажам и работе с пользователями",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 95,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.782Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "177",
-    "object_repr": "Начальник отдела управления проектами (IT)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 96,
-  "fields": {
-    "action_time": "2021-03-12T17:10:43.898Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "176",
-    "object_repr": "Монтажник",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 97,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.007Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "175",
-    "object_repr": "Frontend Developer/HTML-coder",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 98,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.098Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "174",
-    "object_repr": "Специалист по работе с клиентами (менеджер технической поддержки)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 99,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.190Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "173",
-    "object_repr": "Руководитель отдела маркетинга",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 100,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.281Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "172",
-    "object_repr": "Эксперт Онлайн Офиса",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 101,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.433Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "171",
-    "object_repr": "Менеджер по работе с клиентами в социальных сетях",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 102,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.515Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "170",
-    "object_repr": "Менеджер проектов",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 103,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.623Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "169",
-    "object_repr": "Специалист по работе с клиентами (обработка чатов)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 104,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.723Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "168",
-    "object_repr": "Стажер в отдел продаж",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 105,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.814Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "167",
-    "object_repr": "Системный администратор",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 106,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.906Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "166",
-    "object_repr": "Системный администратор",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 107,
-  "fields": {
-    "action_time": "2021-03-12T17:10:44.998Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "165",
-    "object_repr": "Специалист по работе с клиентами",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 108,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.099Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "164",
-    "object_repr": "HTML-верстальщик",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 109,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.190Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "163",
-    "object_repr": "Специалист поддержки пользователей",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 110,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.306Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "162",
-    "object_repr": "Специалист поддержки пользователей",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 111,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.406Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "161",
-    "object_repr": "Специалист службы поддержки пользователей",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 112,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.515Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "160",
-    "object_repr": "Копирайтер",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 113,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.615Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "159",
-    "object_repr": "Букмекер-аналитик",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 114,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.716Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "158",
-    "object_repr": "Специалист по работе с клиентами",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 115,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.823Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "157",
-    "object_repr": "Менеджер чата (ИМ Оzоn)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 116,
-  "fields": {
-    "action_time": "2021-03-12T17:10:45.923Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "156",
-    "object_repr": "Менеджер интернет-магазина",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 117,
-  "fields": {
-    "action_time": "2021-03-12T17:10:46.023Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "155",
-    "object_repr": "Инженер сборщик тестировщик компьютерной техники / PC assembler and tester",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 118,
-  "fields": {
-    "action_time": "2021-03-12T17:10:46.123Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "154",
-    "object_repr": "Специалист службы технической поддержки",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 119,
-  "fields": {
-    "action_time": "2021-03-12T17:10:46.223Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "153",
-    "object_repr": "Начинающий специалист",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 120,
-  "fields": {
-    "action_time": "2021-03-12T17:10:46.315Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "152",
-    "object_repr": "Оператор call-центра в Delivery Club",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 121,
-  "fields": {
-    "action_time": "2021-03-12T17:10:46.406Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "151",
-    "object_repr": "Младший менеджер проектов (специалист поддержки клиентов)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 122,
-  "fields": {
-    "action_time": "2021-03-12T17:11:04.934Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "150",
-    "object_repr": "VoIP инженер",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 123,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.014Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "149",
-    "object_repr": "Специалист по работе с клиентами в контакт-центр (на дому)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 124,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.097Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "148",
-    "object_repr": "Сервисный инженер (специалист по ремонту оргтехники)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 125,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.197Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "147",
-    "object_repr": "Process Manager",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 126,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.305Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "146",
-    "object_repr": "Программист 1С 8.3 (ул. Бориспольская, 9е)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 127,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.413Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "145",
-    "object_repr": "Ведущий инженер по телекоммуникациям",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 128,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.505Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "144",
-    "object_repr": "Менеджер по продажам",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 129,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.581Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "143",
-    "object_repr": "Руководитель группы контента",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 130,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.657Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "142",
-    "object_repr": "Продавец-консультант",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 131,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.815Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "141",
-    "object_repr": "Middle/Senior QA Engineer",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 132,
-  "fields": {
-    "action_time": "2021-03-12T17:11:05.966Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "140",
-    "object_repr": "Специалист службы поддержки в сервис Яндекс.Еда",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 133,
-  "fields": {
-    "action_time": "2021-03-12T17:11:06.074Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "139",
-    "object_repr": "Интернет-маркетолог в онлайн-школу",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 134,
-  "fields": {
-    "action_time": "2021-03-12T17:11:06.141Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "138",
-    "object_repr": "Менеджер по продажам (входящий поток клиентов)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 135,
-  "fields": {
-    "action_time": "2021-03-12T17:11:06.191Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "137",
-    "object_repr": "Системный администратор",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 136,
-  "fields": {
-    "action_time": "2021-03-12T17:11:06.265Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "136",
-    "object_repr": "Менеджер по продажам ИТ (компьютеры и оргтехника)",
-    "action_flag": 3,
-    "change_message": ""
-  },
