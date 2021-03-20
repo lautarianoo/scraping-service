@@ -1,0 +1,18 @@
+{% extends 'scraping/base.html' %}
+{% block content %}
+    <div class="card my-4">
+    <div class="card-header">
+        <h3><a href="{{ vacancy.url }}">{{ vacancy.title }}</a></h3>
+        <h5 align="right">{{ vacancy.earning }}</h5>
+    </div>
+    <div class="card-body">
+        <h6 class="card-title my-1 text-muted">{{ vacancy.company }}</h6>
+    <p class="text-muted"><small>{{ vacancy.city.name }}</small></p>
+        <p class="card-text"><p>{{ vacancy.description }}</p>
+        <a href="#" class="btn btn-primary">Откликнуться</a>
+    </div>
+       <blockquote class="blockquote text-right my-2">
+    <footer class="blockquote-footer">{{ vacancy.timestamp }}</footer>
+    </blockquote>
+    </div>
+{% endblock content %}
